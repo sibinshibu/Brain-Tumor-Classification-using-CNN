@@ -17,3 +17,4 @@ This is a Streamlit web app to classify brain MRI images into four categories:
 - Show Grad-CAM heatmap to interpret model decisions
 
 ## 📁 Folder Structure
+<pre><code> 📁 brain_tumor_app/ ├── 📁 models/ # Folder with your saved models │ ├── baseline_model.h5 │ ├── baseline_model.keras │ ├── fine_tune_model.h5 │ └── fine_tune_model.keras │ ├── 📄 app.py # Main Streamlit web app ├── 📄 requirements.txt # Dependencies for app └── 📄 README.md # Project documentation </code></pre>
